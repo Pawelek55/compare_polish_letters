@@ -86,9 +86,19 @@ class ComparePolishLetters {
     "ż": 66,
     "Ź": 67,
     "ź": 68,
+    "0": 69,
+    "1": 70,
+    "2": 71,
+    "3": 72,
+    "4": 73,
+    "5": 74,
+    "6": 75,
+    "7": 76,
+    "8": 77,
+    "9": 78,
   };
-  int charAint;
-  int charBint;
+  int charAint = 0;
+  int charBint = 0;
   int compare(String a, String b) {
     int min = a.length;
     if (b.length < a.length) min = b.length;
