@@ -106,10 +106,10 @@ class ComparePolishLetters {
       String charA = a[i].toLowerCase();
       String charB = b[i].toLowerCase();
       if (map.containsKey(charA)) {
-        charAint = map[charA];
+        charAint = map[charA] as int;
       }
       if (map.containsKey(charB)) {
-        charBint = map[charB];
+        charBint = map[charB] as int;
       }
       if (charAint > charBint)
         return 1;
