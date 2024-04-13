@@ -1,11 +1,10 @@
 name: compare_polish_letters
 description: Compare polish letters.
-version: 0.0.2
+version: 0.0.3
 homepage:
 
 environment:
-  sdk: ">=2.6.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
